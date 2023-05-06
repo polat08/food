@@ -26,7 +26,7 @@ function forms(formSelector, modalTimerId) {
         display: block;
         margin: 0 auto;
       `;
-      // form.append(statusMessage); same code
+      
       form.insertAdjacentElement('afterend', statusMessage);
 
       const formData = new FormData(form);
